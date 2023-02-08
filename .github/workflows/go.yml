@@ -21,6 +21,9 @@ jobs:
       with:
         go-version: 1.19
 
+    - name: Look around
+      run: ls -al && pwd
+
     - name: Build
       run: go build -v ./...
 
